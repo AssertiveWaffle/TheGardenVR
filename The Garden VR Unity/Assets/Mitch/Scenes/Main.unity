@@ -2228,7 +2228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6946a59b31cf646b0d27bcf3375336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInSeconds: 60
+  button: {fileID: 0}
 --- !u!136 &589942231
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3127,8 +3127,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853714927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.186163, y: 0.672472, z: -12.706549}
-  m_LocalScale: {x: 0.049322, y: 4.0373845, z: 5.8527493}
+  m_LocalPosition: {x: -6.109, y: -0.15, z: -12.707}
+  m_LocalScale: {x: 0.017418066, y: 1.4258024, z: 2.0668986}
   m_Children:
   - {fileID: 1581706620}
   m_Father: {fileID: 1071830413}
@@ -3980,8 +3980,8 @@ Transform:
   - {fileID: 1417542258}
   - {fileID: 220699392}
   - {fileID: 1983677926}
-  - {fileID: 971358160}
   - {fileID: 1725878949}
+  - {fileID: 971358160}
   - {fileID: 853714931}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -5185,7 +5185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.82
-  m_Text: "Press Button to go to Breathing Room. \n\nActivity Lasts for 60 Seconds."
+  m_Text: 'Press Button to go to Breathing Room. '
 --- !u!222 &1471148846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6119,7 +6119,7 @@ Transform:
   m_Children:
   - {fileID: 589942229}
   m_Father: {fileID: 1071830413}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756429182
 GameObject:
