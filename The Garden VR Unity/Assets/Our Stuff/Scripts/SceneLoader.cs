@@ -4,25 +4,36 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
     public string sceneName; // Name of the scene to load
+    private bool canLoadScene = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Check if the player collided with the button
+        if (other.CompareTag("Player"))
         {
-            // Display message to player to press E
             Debug.Log("Press 'E' to load the scene");
+            canLoadScene = true;
+        }
+    }
 
-            // Wait for the player to press E
-            if (Input.GetKeyDown(KeyCode.Insert))
-            {
-                SceneManager.LoadScene(sceneName); // Load the specified scene
-            }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Player left trigger zone");
+            canLoadScene = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (canLoadScene && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(sceneName);
+            Debug.Log("Button Pressed");
         }
     }
 }
