@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Mitch/Scenes/Main.unity
+    path: Assets/Our Stuff/Scenes/Main.unity
     guid: beee82abacbfaa340a4a0bda507a532b
   - enabled: 1
-    path: Assets/Mitch/Scenes/BreathingRoom.unity
+    path: Assets/Our Stuff/Scenes/BreathingRoom.unity
     guid: c1b9d89c18db92043add3521441a06e4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,

@@ -14,13 +14,17 @@ public class PhysicsButton : MonoBehaviour
     private ConfigurableJoint joint;
     private AudioController audioController;
 
-    public UnityEvent onPressed, onReleased, onPlayNextClip, onPlayPauseClip, onIncreaseVolume, onDecreaseVolume;
+    public UnityEvent onPressed, onReleased;
+
+    private SceneLoader sceneLoader; // Added reference to SceneLoader script
 
     private void Start()
     {
         startPos = transform.localPosition;
         joint = GetComponent<ConfigurableJoint>();
         audioController = GetComponentInParent<AudioController>();
+        sceneLoader = FindObjectOfType<SceneLoader>(); // Find the SceneLoader script
+        onPressed.AddListener(LoadScene); // Add an event listener to the onPressed event
     }
 
     private void Update()
@@ -51,8 +55,8 @@ public class PhysicsButton : MonoBehaviour
     private void Pressed()
     {
         isPressed = true;
-        onPressed?.Invoke(); // null check added
-        if (audioController != null) // null check added
+        onPressed?.Invoke();
+        if (audioController != null)
         {
             audioController.PlayNextClip();
             audioController.PlayPauseMusic();
@@ -67,5 +71,10 @@ public class PhysicsButton : MonoBehaviour
         isPressed = false;
         onReleased.Invoke();
         Debug.Log("Released");
+    }
+
+    private void LoadScene()
+    {
+        sceneLoader.LoadScene(); // Call LoadScene method in SceneLoader script
     }
 }
