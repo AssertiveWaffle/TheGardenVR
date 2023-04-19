@@ -9,10 +9,7 @@ TagManager:
   - Right Hand
   - CinemachineTarget
   - BreathingButton
-  - ChangeTrack
-  - VolumeUp
-  - VolumeDown
-  - PlayPause
+  - Whiteboard
   layers:
   - Default
   - TransparentFX
