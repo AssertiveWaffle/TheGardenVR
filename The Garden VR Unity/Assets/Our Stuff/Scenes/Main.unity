@@ -3745,8 +3745,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 478368437}
-  - {fileID: 659153156}
   - {fileID: 1035335117}
+  - {fileID: 659153156}
   - {fileID: 1183939719}
   m_Father: {fileID: 892758149}
   m_RootOrder: 0
@@ -10806,6 +10806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7493810604850798835, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7493810605001174603, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.size
@@ -10847,6 +10852,16 @@ PrefabInstance:
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7493810605001174604, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810605001174606, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_EnableCollision
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7493810605001174606, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
       propertyPath: m_LinearLimit.limit
@@ -10856,6 +10871,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_YDrive.positionSpring
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810605170581694, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810605170581695, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7493810606502511524, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
@@ -10916,6 +10941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneChangeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810606502511525, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeaf8a72fd11974459caee7c3045b3ac, type: 3}

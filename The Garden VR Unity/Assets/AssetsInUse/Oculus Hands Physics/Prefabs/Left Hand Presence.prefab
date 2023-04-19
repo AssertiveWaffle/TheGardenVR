@@ -615,7 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109434733568965634}
   - component: {fileID: 109434733575885780}
-  - component: {fileID: 4309361495852623585}
+  - component: {fileID: 4938794561388914295}
   m_Layer: 9
   m_Name: Custom Left Hand Model
   m_TagString: Untagged
@@ -658,22 +658,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!54 &4309361495852623585
-Rigidbody:
+--- !u!136 &4938794561388914295
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109434733568467042}
-  serializedVersion: 2
-  m_Mass: 2
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.07
+  m_Height: 0.2
+  m_Direction: 2
+  m_Center: {x: -0.02, y: 0.03, z: 0.01}
 --- !u!1 &109434733568467044
 GameObject:
   m_ObjectHideFlags: 0
