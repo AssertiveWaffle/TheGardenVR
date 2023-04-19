@@ -48,18 +48,21 @@ public class PhysicsButton : MonoBehaviour
         return Mathf.Clamp(value, -1f, 1f);
     }
 
-    public void Pressed()
+    private void Pressed()
     {
         isPressed = true;
-        onPressed.Invoke();
-        audioController.PlayNextClip();
-        audioController.PlayPauseMusic();
-        audioController.IncreaseVolume();
-        audioController.DecreaseVolume();
+        onPressed?.Invoke(); // null check added
+        if (audioController != null) // null check added
+        {
+            audioController.PlayNextClip();
+            audioController.PlayPauseMusic();
+            audioController.IncreaseVolume();
+            audioController.DecreaseVolume();
+        }
         Debug.Log("Pressed");
     }
 
-    public void Released()
+    private void Released()
     {
         isPressed = false;
         onReleased.Invoke();
