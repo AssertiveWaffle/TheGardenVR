@@ -367,6 +367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3475118261464492563}
+  - component: {fileID: 1016460910299370070}
   m_Layer: 0
   m_Name: XR Controller Right
   m_TagString: Untagged
@@ -394,6 +395,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1016460910299370070
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283425761326543017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.09
+  m_Height: 0.16
+  m_Direction: 1
+  m_Center: {x: -0, y: -0.02, z: 0.02}
 --- !u!1 &6118169511635425143
 GameObject:
   m_ObjectHideFlags: 0
