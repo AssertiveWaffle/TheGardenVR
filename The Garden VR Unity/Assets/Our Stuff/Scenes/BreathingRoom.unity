@@ -1370,7 +1370,7 @@ PrefabInstance:
     - target: {fileID: 7493810605001174603, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: BreathingRoom
+      value: Main
       objectReference: {fileID: 0}
     - target: {fileID: 7493810605001174603, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6946a59b31cf646b0d27bcf3375336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: BreathingRoom
+  sceneName: Main
 --- !u!1 &734024747
 GameObject:
   m_ObjectHideFlags: 0
