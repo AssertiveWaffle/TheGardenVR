@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Our Stuff/Scenes/BreathingRoom.unity
     guid: c1b9d89c18db92043add3521441a06e4
+  - enabled: 1
+    path: Assets/Our Stuff/Scenes/Secret.unity
+    guid: af6361d4eca8a3a4a8b47cd95335f494
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,
       type: 2}
