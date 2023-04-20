@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3621981467535291324}
   - component: {fileID: 3621981467535291327}
-  - component: {fileID: 5656495267540767285}
   m_Layer: 9
   m_Name: Right Hand Presence
   m_TagString: Untagged
@@ -47,20 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerCharacteristics: 576
   handAnimator: {fileID: 5686134208563048910}
---- !u!136 &5656495267540767285
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3621981467535291326}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.07
-  m_Height: 0.2
-  m_Direction: 2
-  m_Center: {x: 0.04, y: -0.02, z: -0.02}
 --- !u!1001 &907832202
 PrefabInstance:
   m_ObjectHideFlags: 0
