@@ -4,153 +4,437 @@ labels:
 - character
 - dinosaur
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: HeadBone
-    100002: Jawbone
-    100004: LeftAnklebone
-    100006: LeftFootHeelBone_Bone
-    100008: LeftFootInnerBallBone_Bone
-    100010: LeftFootMiddleBallBone_Bone
-    100012: LeftFootOuterBallBone_Bone
-    100014: LeftInnerFinger1
-    100016: LeftLowerArm
-    100018: LeftLowerLeg
-    100020: LeftOuterFinger1
-    100022: LeftThigh
-    100024: LeftUpperArm
-    100026: Neck
-    100028: Neckskin_bone
-    100030: RightAnklebone1
-    100032: RightFootHeelBone_Bone1
-    100034: RightFootInnerBallBone_Bone1
-    100036: RightFootMiddleBallBone_Bone1
-    100038: RightFootOuterBallBone_Bone1
-    100040: RightInnerFinger4
-    100042: RightLowerArm1
-    100044: RightLowerLeg1
-    100046: RightnnerFinger3
-    100048: RightOuterFinger3
-    100050: RightOuterFinger4
-    100052: RightThigh1
-    100054: RightUpperArm1
-    100056: SpineBoneFour
-    100058: SpineBoneOne
-    100060: SpineBoneThree
-    100062: SpineBoneTwo
-    100064: tail1
-    100066: tail2
-    100068: tail3
-    100070: tail4
-    100072: tail5
-    100074: tail6
-    100076: tail7
-    100078: TongueBack
-    100080: TongueCenter
-    100082: //RootNode
-    100084: trexMesh
-    100086: LeftFootInnerToeBone_Bone
-    100088: LeftFootMiddleToeBone_Bone
-    100090: LeftFootOuterToeBone_Bone
-    100092: LeftInnerFinger2
-    100094: LeftOuterFinger2
-    100096: RightFootInnerToeBone_Bone1
-    100098: RightFootMiddleToeBone_Bone1
-    100100: RightFootOuterToeBone_Bone1
-    100102: TongueFront
-    400000: HeadBone
-    400002: Jawbone
-    400004: LeftAnklebone
-    400006: LeftFootHeelBone_Bone
-    400008: LeftFootInnerBallBone_Bone
-    400010: LeftFootMiddleBallBone_Bone
-    400012: LeftFootOuterBallBone_Bone
-    400014: LeftInnerFinger1
-    400016: LeftLowerArm
-    400018: LeftLowerLeg
-    400020: LeftOuterFinger1
-    400022: LeftThigh
-    400024: LeftUpperArm
-    400026: Neck
-    400028: Neckskin_bone
-    400030: RightAnklebone1
-    400032: RightFootHeelBone_Bone1
-    400034: RightFootInnerBallBone_Bone1
-    400036: RightFootMiddleBallBone_Bone1
-    400038: RightFootOuterBallBone_Bone1
-    400040: RightInnerFinger4
-    400042: RightLowerArm1
-    400044: RightLowerLeg1
-    400046: RightnnerFinger3
-    400048: RightOuterFinger3
-    400050: RightOuterFinger4
-    400052: RightThigh1
-    400054: RightUpperArm1
-    400056: SpineBoneFour
-    400058: SpineBoneOne
-    400060: SpineBoneThree
-    400062: SpineBoneTwo
-    400064: tail1
-    400066: tail2
-    400068: tail3
-    400070: tail4
-    400072: tail5
-    400074: tail6
-    400076: tail7
-    400078: TongueBack
-    400080: TongueCenter
-    400082: //RootNode
-    400084: trexMesh
-    400086: LeftFootInnerToeBone_Bone
-    400088: LeftFootMiddleToeBone_Bone
-    400090: LeftFootOuterToeBone_Bone
-    400092: LeftInnerFinger2
-    400094: LeftOuterFinger2
-    400096: RightFootInnerToeBone_Bone1
-    400098: RightFootMiddleToeBone_Bone1
-    400100: RightFootOuterToeBone_Bone1
-    400102: TongueFront
-    4300000: trexMesh
-    7400000: walkFW
-    7400002: turnLeft
-    7400004: turnRight
-    7400006: walkBW
-    7400008: runFW
-    7400010: runLeft
-    7400012: runRight
-    7400014: idle
-    7400016: idleLookAround
-    7400018: idleAct
-    7400020: idleEating
-    7400022: eatFast
-    7400024: eatIn
-    7400026: eatOut
-    7400028: idleBother
-    7400030: strafeLeft
-    7400032: strafeRight
-    7400034: roarThreat
-    7400036: roarHigh
-    7400038: blendRoar
-    7400040: dieLong
-    7400042: dieFast
-    7400044: attack1
-    7400046: attack2
-    7400048: attack3
-    7400050: attackHead
-    7400052: headPushHeavy
-    7400054: attackHigh
-    7400056: hitHead
-    7400058: hitArmRight
-    7400060: hitArmLeft
-    7400062: hitLegRight
-    7400064: hitLegLeft
-    7400066: hitChest
-    9500000: //RootNode
-    13700000: trexMesh
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: HeadBone
+  - first:
+      1: 100002
+    second: Jawbone
+  - first:
+      1: 100004
+    second: LeftAnklebone
+  - first:
+      1: 100006
+    second: LeftFootHeelBone_Bone
+  - first:
+      1: 100008
+    second: LeftFootInnerBallBone_Bone
+  - first:
+      1: 100010
+    second: LeftFootMiddleBallBone_Bone
+  - first:
+      1: 100012
+    second: LeftFootOuterBallBone_Bone
+  - first:
+      1: 100014
+    second: LeftInnerFinger1
+  - first:
+      1: 100016
+    second: LeftLowerArm
+  - first:
+      1: 100018
+    second: LeftLowerLeg
+  - first:
+      1: 100020
+    second: LeftOuterFinger1
+  - first:
+      1: 100022
+    second: LeftThigh
+  - first:
+      1: 100024
+    second: LeftUpperArm
+  - first:
+      1: 100026
+    second: Neck
+  - first:
+      1: 100028
+    second: Neckskin_bone
+  - first:
+      1: 100030
+    second: RightAnklebone1
+  - first:
+      1: 100032
+    second: RightFootHeelBone_Bone1
+  - first:
+      1: 100034
+    second: RightFootInnerBallBone_Bone1
+  - first:
+      1: 100036
+    second: RightFootMiddleBallBone_Bone1
+  - first:
+      1: 100038
+    second: RightFootOuterBallBone_Bone1
+  - first:
+      1: 100040
+    second: RightInnerFinger4
+  - first:
+      1: 100042
+    second: RightLowerArm1
+  - first:
+      1: 100044
+    second: RightLowerLeg1
+  - first:
+      1: 100046
+    second: RightnnerFinger3
+  - first:
+      1: 100048
+    second: RightOuterFinger3
+  - first:
+      1: 100050
+    second: RightOuterFinger4
+  - first:
+      1: 100052
+    second: RightThigh1
+  - first:
+      1: 100054
+    second: RightUpperArm1
+  - first:
+      1: 100056
+    second: SpineBoneFour
+  - first:
+      1: 100058
+    second: SpineBoneOne
+  - first:
+      1: 100060
+    second: SpineBoneThree
+  - first:
+      1: 100062
+    second: SpineBoneTwo
+  - first:
+      1: 100064
+    second: tail1
+  - first:
+      1: 100066
+    second: tail2
+  - first:
+      1: 100068
+    second: tail3
+  - first:
+      1: 100070
+    second: tail4
+  - first:
+      1: 100072
+    second: tail5
+  - first:
+      1: 100074
+    second: tail6
+  - first:
+      1: 100076
+    second: tail7
+  - first:
+      1: 100078
+    second: TongueBack
+  - first:
+      1: 100080
+    second: TongueCenter
+  - first:
+      1: 100082
+    second: //RootNode
+  - first:
+      1: 100084
+    second: trexMesh
+  - first:
+      1: 100086
+    second: LeftFootInnerToeBone_Bone
+  - first:
+      1: 100088
+    second: LeftFootMiddleToeBone_Bone
+  - first:
+      1: 100090
+    second: LeftFootOuterToeBone_Bone
+  - first:
+      1: 100092
+    second: LeftInnerFinger2
+  - first:
+      1: 100094
+    second: LeftOuterFinger2
+  - first:
+      1: 100096
+    second: RightFootInnerToeBone_Bone1
+  - first:
+      1: 100098
+    second: RightFootMiddleToeBone_Bone1
+  - first:
+      1: 100100
+    second: RightFootOuterToeBone_Bone1
+  - first:
+      1: 100102
+    second: TongueFront
+  - first:
+      4: 400000
+    second: HeadBone
+  - first:
+      4: 400002
+    second: Jawbone
+  - first:
+      4: 400004
+    second: LeftAnklebone
+  - first:
+      4: 400006
+    second: LeftFootHeelBone_Bone
+  - first:
+      4: 400008
+    second: LeftFootInnerBallBone_Bone
+  - first:
+      4: 400010
+    second: LeftFootMiddleBallBone_Bone
+  - first:
+      4: 400012
+    second: LeftFootOuterBallBone_Bone
+  - first:
+      4: 400014
+    second: LeftInnerFinger1
+  - first:
+      4: 400016
+    second: LeftLowerArm
+  - first:
+      4: 400018
+    second: LeftLowerLeg
+  - first:
+      4: 400020
+    second: LeftOuterFinger1
+  - first:
+      4: 400022
+    second: LeftThigh
+  - first:
+      4: 400024
+    second: LeftUpperArm
+  - first:
+      4: 400026
+    second: Neck
+  - first:
+      4: 400028
+    second: Neckskin_bone
+  - first:
+      4: 400030
+    second: RightAnklebone1
+  - first:
+      4: 400032
+    second: RightFootHeelBone_Bone1
+  - first:
+      4: 400034
+    second: RightFootInnerBallBone_Bone1
+  - first:
+      4: 400036
+    second: RightFootMiddleBallBone_Bone1
+  - first:
+      4: 400038
+    second: RightFootOuterBallBone_Bone1
+  - first:
+      4: 400040
+    second: RightInnerFinger4
+  - first:
+      4: 400042
+    second: RightLowerArm1
+  - first:
+      4: 400044
+    second: RightLowerLeg1
+  - first:
+      4: 400046
+    second: RightnnerFinger3
+  - first:
+      4: 400048
+    second: RightOuterFinger3
+  - first:
+      4: 400050
+    second: RightOuterFinger4
+  - first:
+      4: 400052
+    second: RightThigh1
+  - first:
+      4: 400054
+    second: RightUpperArm1
+  - first:
+      4: 400056
+    second: SpineBoneFour
+  - first:
+      4: 400058
+    second: SpineBoneOne
+  - first:
+      4: 400060
+    second: SpineBoneThree
+  - first:
+      4: 400062
+    second: SpineBoneTwo
+  - first:
+      4: 400064
+    second: tail1
+  - first:
+      4: 400066
+    second: tail2
+  - first:
+      4: 400068
+    second: tail3
+  - first:
+      4: 400070
+    second: tail4
+  - first:
+      4: 400072
+    second: tail5
+  - first:
+      4: 400074
+    second: tail6
+  - first:
+      4: 400076
+    second: tail7
+  - first:
+      4: 400078
+    second: TongueBack
+  - first:
+      4: 400080
+    second: TongueCenter
+  - first:
+      4: 400082
+    second: //RootNode
+  - first:
+      4: 400084
+    second: trexMesh
+  - first:
+      4: 400086
+    second: LeftFootInnerToeBone_Bone
+  - first:
+      4: 400088
+    second: LeftFootMiddleToeBone_Bone
+  - first:
+      4: 400090
+    second: LeftFootOuterToeBone_Bone
+  - first:
+      4: 400092
+    second: LeftInnerFinger2
+  - first:
+      4: 400094
+    second: LeftOuterFinger2
+  - first:
+      4: 400096
+    second: RightFootInnerToeBone_Bone1
+  - first:
+      4: 400098
+    second: RightFootMiddleToeBone_Bone1
+  - first:
+      4: 400100
+    second: RightFootOuterToeBone_Bone1
+  - first:
+      4: 400102
+    second: TongueFront
+  - first:
+      43: 4300000
+    second: trexMesh
+  - first:
+      74: 7400000
+    second: walkFW
+  - first:
+      74: 7400002
+    second: turnLeft
+  - first:
+      74: 7400004
+    second: turnRight
+  - first:
+      74: 7400006
+    second: walkBW
+  - first:
+      74: 7400008
+    second: runFW
+  - first:
+      74: 7400010
+    second: runLeft
+  - first:
+      74: 7400012
+    second: runRight
+  - first:
+      74: 7400014
+    second: idle
+  - first:
+      74: 7400016
+    second: idleLookAround
+  - first:
+      74: 7400018
+    second: idleAct
+  - first:
+      74: 7400020
+    second: idleEating
+  - first:
+      74: 7400022
+    second: eatFast
+  - first:
+      74: 7400024
+    second: eatIn
+  - first:
+      74: 7400026
+    second: eatOut
+  - first:
+      74: 7400028
+    second: idleBother
+  - first:
+      74: 7400030
+    second: strafeLeft
+  - first:
+      74: 7400032
+    second: strafeRight
+  - first:
+      74: 7400034
+    second: roarThreat
+  - first:
+      74: 7400036
+    second: roarHigh
+  - first:
+      74: 7400038
+    second: blendRoar
+  - first:
+      74: 7400040
+    second: dieLong
+  - first:
+      74: 7400042
+    second: dieFast
+  - first:
+      74: 7400044
+    second: attack1
+  - first:
+      74: 7400046
+    second: attack2
+  - first:
+      74: 7400048
+    second: attack3
+  - first:
+      74: 7400050
+    second: attackHead
+  - first:
+      74: 7400052
+    second: headPushHeavy
+  - first:
+      74: 7400054
+    second: attackHigh
+  - first:
+      74: 7400056
+    second: hitHead
+  - first:
+      74: 7400058
+    second: hitArmRight
+  - first:
+      74: 7400060
+    second: hitArmLeft
+  - first:
+      74: 7400062
+    second: hitLegRight
+  - first:
+      74: 7400064
+    second: hitLegLeft
+  - first:
+      74: 7400066
+    second: hitChest
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: trexMesh
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -163,16 +447,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: walkFW
       takeName: Take 001
+      internalID: 0
       firstFrame: 10
       lastFrame: 70
       wrapMode: 0
@@ -305,7 +593,8 @@ ModelImporter:
     - serializedVersion: 16
       name: turnLeft
       takeName: Take 001
-      firstFrame: 1002
+      internalID: 0
+      firstFrame: 0
       lastFrame: 1061
       wrapMode: 0
       orientationOffsetY: 0
@@ -437,6 +726,7 @@ ModelImporter:
     - serializedVersion: 16
       name: turnRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1062
       lastFrame: 1122
       wrapMode: 0
@@ -569,6 +859,7 @@ ModelImporter:
     - serializedVersion: 16
       name: walkBW
       takeName: Take 001
+      internalID: 0
       firstFrame: 1403
       lastFrame: 1463
       wrapMode: 0
@@ -701,6 +992,7 @@ ModelImporter:
     - serializedVersion: 16
       name: runFW
       takeName: Take 001
+      internalID: 0
       firstFrame: 80
       lastFrame: 98
       wrapMode: 0
@@ -833,6 +1125,7 @@ ModelImporter:
     - serializedVersion: 16
       name: runLeft
       takeName: Take 001
+      internalID: 0
       firstFrame: 1361
       lastFrame: 1380
       wrapMode: 0
@@ -965,6 +1258,7 @@ ModelImporter:
     - serializedVersion: 16
       name: runRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1383
       lastFrame: 1401
       wrapMode: 0
@@ -1097,8 +1391,9 @@ ModelImporter:
     - serializedVersion: 16
       name: idle
       takeName: Take 001
-      firstFrame: 102
-      lastFrame: 180
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1874
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1229,6 +1524,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idleLookAround
       takeName: Take 001
+      internalID: 0
       firstFrame: 1616
       lastFrame: 1750
       wrapMode: 0
@@ -1361,6 +1657,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idleAct
       takeName: Take 001
+      internalID: 0
       firstFrame: 1515
       lastFrame: 1615
       wrapMode: 0
@@ -1493,6 +1790,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idleEating
       takeName: Take 001
+      internalID: 0
       firstFrame: 726
       lastFrame: 1000
       wrapMode: 0
@@ -1625,6 +1923,7 @@ ModelImporter:
     - serializedVersion: 16
       name: eatFast
       takeName: Take 001
+      internalID: 0
       firstFrame: 451
       lastFrame: 520
       wrapMode: 0
@@ -1757,6 +2056,7 @@ ModelImporter:
     - serializedVersion: 16
       name: eatIn
       takeName: Take 001
+      internalID: 0
       firstFrame: 451
       lastFrame: 520
       wrapMode: 0
@@ -1889,6 +2189,7 @@ ModelImporter:
     - serializedVersion: 16
       name: eatOut
       takeName: Take 001
+      internalID: 0
       firstFrame: 490
       lastFrame: 520
       wrapMode: 0
@@ -2021,6 +2322,7 @@ ModelImporter:
     - serializedVersion: 16
       name: idleBother
       takeName: Take 001
+      internalID: 0
       firstFrame: 351
       lastFrame: 450
       wrapMode: 0
@@ -2153,6 +2455,7 @@ ModelImporter:
     - serializedVersion: 16
       name: strafeLeft
       takeName: Take 001
+      internalID: 0
       firstFrame: 1781
       lastFrame: 1821
       wrapMode: 0
@@ -2285,6 +2588,7 @@ ModelImporter:
     - serializedVersion: 16
       name: strafeRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1822
       lastFrame: 1862
       wrapMode: 0
@@ -2417,6 +2721,7 @@ ModelImporter:
     - serializedVersion: 16
       name: roarThreat
       takeName: Take 001
+      internalID: 0
       firstFrame: 180
       lastFrame: 350
       wrapMode: 0
@@ -2549,6 +2854,7 @@ ModelImporter:
     - serializedVersion: 16
       name: roarHigh
       takeName: Take 001
+      internalID: 0
       firstFrame: 1282
       lastFrame: 1359
       wrapMode: 0
@@ -2681,6 +2987,7 @@ ModelImporter:
     - serializedVersion: 16
       name: blendRoar
       takeName: Take 001
+      internalID: 0
       firstFrame: 1184
       lastFrame: 1230
       wrapMode: 0
@@ -2813,6 +3120,7 @@ ModelImporter:
     - serializedVersion: 16
       name: dieLong
       takeName: Take 001
+      internalID: 0
       firstFrame: 635
       lastFrame: 694
       wrapMode: 0
@@ -2945,6 +3253,7 @@ ModelImporter:
     - serializedVersion: 16
       name: dieFast
       takeName: Take 001
+      internalID: 0
       firstFrame: 695
       lastFrame: 724
       wrapMode: 0
@@ -3077,6 +3386,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack1
       takeName: Take 001
+      internalID: 0
       firstFrame: 601
       lastFrame: 634
       wrapMode: 0
@@ -3209,6 +3519,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack2
       takeName: Take 001
+      internalID: 0
       firstFrame: 571
       lastFrame: 600
       wrapMode: 0
@@ -3341,6 +3652,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack3
       takeName: Take 001
+      internalID: 0
       firstFrame: 521
       lastFrame: 570
       wrapMode: 0
@@ -3473,6 +3785,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attackHead
       takeName: Take 001
+      internalID: 0
       firstFrame: 1464
       lastFrame: 1510
       wrapMode: 0
@@ -3605,6 +3918,7 @@ ModelImporter:
     - serializedVersion: 16
       name: headPushHeavy
       takeName: Take 001
+      internalID: 0
       firstFrame: 1231
       lastFrame: 1281
       wrapMode: 0
@@ -3737,6 +4051,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attackHigh
       takeName: Take 001
+      internalID: 0
       firstFrame: 1751
       lastFrame: 1780
       wrapMode: 0
@@ -3869,6 +4184,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitHead
       takeName: Take 001
+      internalID: 0
       firstFrame: 1123
       lastFrame: 1136
       wrapMode: 0
@@ -4001,6 +4317,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitArmRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1137
       lastFrame: 1146
       wrapMode: 0
@@ -4133,6 +4450,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitArmLeft
       takeName: Take 001
+      internalID: 0
       firstFrame: 1146
       lastFrame: 1155
       wrapMode: 0
@@ -4265,6 +4583,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitLegRight
       takeName: Take 001
+      internalID: 0
       firstFrame: 1174
       lastFrame: 1184
       wrapMode: 0
@@ -4397,6 +4716,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitLegLeft
       takeName: Take 001
+      internalID: 0
       firstFrame: 1164
       lastFrame: 1174
       wrapMode: 0
@@ -4529,6 +4849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hitChest
       takeName: Take 001
+      internalID: 0
       firstFrame: 1155
       lastFrame: 1164
       wrapMode: 0
@@ -4664,26 +4985,45 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: 1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -4693,14 +5033,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
