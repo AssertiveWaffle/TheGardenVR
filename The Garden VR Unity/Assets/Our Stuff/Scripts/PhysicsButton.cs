@@ -16,15 +16,25 @@ public class PhysicsButton : MonoBehaviour
 
     public UnityEvent onPressed, onReleased;
 
-    private SceneLoader sceneLoader; // Added reference to SceneLoader script
+    private SceneLoader sceneLoader;
+    private SecretSceneLoader secretSceneLoader;
 
     private void Start()
     {
         startPos = transform.localPosition;
         joint = GetComponent<ConfigurableJoint>();
         audioController = GetComponentInParent<AudioController>();
-        sceneLoader = FindObjectOfType<SceneLoader>(); // Find the SceneLoader script
-        onPressed.AddListener(LoadScene); // Add an event listener to the onPressed event
+
+        if (gameObject.name == "BreathingRoomButton")
+        {
+            sceneLoader = FindObjectOfType<SceneLoader>();
+            onPressed.AddListener(LoadScene);
+        }
+        else if (gameObject.name == "SecretButton")
+        {
+            secretSceneLoader = FindObjectOfType<SecretSceneLoader>();
+            onPressed.AddListener(LoadScene);
+        }
     }
 
     private void Update()
@@ -75,6 +85,13 @@ public class PhysicsButton : MonoBehaviour
 
     private void LoadScene()
     {
-        sceneLoader.LoadScene(); // Call LoadScene method in SceneLoader script
+        if (gameObject.name == "BreathingRoomButton")
+        {
+            sceneLoader.LoadScene();
+        }
+        else if (gameObject.name == "SecretButton")
+        {
+            secretSceneLoader.SecretLoadScene();
+        }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public string sceneName;
+    public string sceneName = "BreathingRoom";
 
     public void LoadScene()
     {

@@ -99,7 +99,8 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 88d43643f0f2d91459bfa3f531f44f32,
     type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 5c3dcbe6d5be3e94fa1f1ade880e6e87,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3653,6 +3654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Marker_black
       objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: 1c57534248afa984f8e3ed1e9d414ccd,
+        type: 3}
+      propertyPath: penSize
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: 1c57534248afa984f8e3ed1e9d414ccd,
         type: 3}
       propertyPath: m_RootOrder
@@ -3885,7 +3891,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443149273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.064}
   m_LocalScale: {x: 1.1077614, y: 1, z: 0.099149056}
   m_Children: []
   m_Father: {fileID: 917880095}
@@ -4375,6 +4381,25 @@ Transform:
   m_Father: {fileID: 1071830413}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &511627068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7493810606502511525, guid: eeaf8a72fd11974459caee7c3045b3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 2014498931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &511627069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511627068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6946a59b31cf646b0d27bcf3375336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: BreathingRoom
 --- !u!1001 &526991074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5574,6 +5599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Eraser
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: 3725db60da582a643b3b3d362e0ae3b4,
+        type: 3}
+      propertyPath: penSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: 3725db60da582a643b3b3d362e0ae3b4,
         type: 3}
@@ -10319,7 +10349,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: 5d6946a59b31cf646b0d27bcf3375336,
+      objectReference: {fileID: 11500000, guid: 13223179e418ec045a872c8830d8ceb0,
         type: 3}
     - target: {fileID: 7493810605001174603, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
@@ -10345,6 +10375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810605001174604, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
+      propertyPath: m_Name
+      value: SecretButton
       objectReference: {fileID: 0}
     - target: {fileID: 7493810605001174604, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
@@ -10460,6 +10495,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Marker_yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: 77ee0ebcade1f6f49a825267a6fb6d0e,
+        type: 3}
+      propertyPath: penSize
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: 77ee0ebcade1f6f49a825267a6fb6d0e,
         type: 3}
@@ -11154,6 +11194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Marker_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: edcf0dc570b8d2d489dd05dc02247560,
+        type: 3}
+      propertyPath: penSize
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: edcf0dc570b8d2d489dd05dc02247560,
         type: 3}
@@ -12501,6 +12546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Marker_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: c96dc2b748eefa44695e9d18b1c1de52,
+        type: 3}
+      propertyPath: penSize
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: c96dc2b748eefa44695e9d18b1c1de52,
         type: 3}
@@ -14714,6 +14764,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020503972, y: 0.065252565, z: 0.0030988767}
   m_Center: {x: 0.0011088864, y: 0.0003909514, z: 0.011453647}
+--- !u!1 &1754435123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7493810606502511525, guid: eeaf8a72fd11974459caee7c3045b3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1138705245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1754435124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754435123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13223179e418ec045a872c8830d8ceb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1772167424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15036,6 +15104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Marker_brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: 9173781fc6b981846b1e0bc13129d9c9,
+        type: 3}
+      propertyPath: penSize
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: 9173781fc6b981846b1e0bc13129d9c9,
         type: 3}
@@ -16439,6 +16512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Marker_blue
       objectReference: {fileID: 0}
+    - target: {fileID: 4369895384969819832, guid: 78c194df33ab7874599a3fe21c2dd91d,
+        type: 3}
+      propertyPath: penSize
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4369895384969819833, guid: 78c194df33ab7874599a3fe21c2dd91d,
         type: 3}
       propertyPath: m_RootOrder
@@ -16872,6 +16950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7493810605001174604, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
+      propertyPath: m_Name
+      value: BreathingRoomButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493810605001174604, guid: eeaf8a72fd11974459caee7c3045b3ac,
+        type: 3}
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
@@ -16958,7 +17041,7 @@ PrefabInstance:
     - target: {fileID: 7493810606502511525, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
       propertyPath: m_Name
-      value: SceneChangeButton
+      value: BreathingRoomButton
       objectReference: {fileID: 0}
     - target: {fileID: 7493810606502511525, guid: eeaf8a72fd11974459caee7c3045b3ac,
         type: 3}
